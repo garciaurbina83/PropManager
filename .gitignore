@@ -29,7 +29,12 @@ yarn-error.log*
 
 # IDE
 .idea/
-.vscode/
+# Allow VSCode settings but ignore workspace specific files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 *.swp
 *.swo
 
